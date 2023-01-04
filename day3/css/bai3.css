@@ -1,0 +1,13 @@
+.blueface {
+    width: 600px;
+    height: 400px;
+    background-image: url('../nhatrang.JPG');
+}
+.middle {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    background-color: silver;
+}
