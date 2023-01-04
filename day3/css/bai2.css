@@ -1,0 +1,16 @@
+.so1{
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 28px;
+}
+.so2{
+    font-weight: 700;
+}
+.so3{
+    font-style: italic;
+}
+.so4{
+    text-align: right;
+}
