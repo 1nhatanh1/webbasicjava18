@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="icon" type="image/x-icon" href="dotax.ico"/>
+    <style>
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+    
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: red;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px ;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: gray;
+    }
+    </style>
+    </head>
+  <body>
+
+  <div>
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="Game">Game</label>
+    <select id="game" name="game">
+      <option value="dota">dota</option>
+      <option value="csgo">csgo</option>
+      <option value="pubg">pubg</option>
+      <option value="naraka">naraka</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+
