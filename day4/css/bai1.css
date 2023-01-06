@@ -1,0 +1,29 @@
+.box1 {
+    display: inline-block;
+    width: 100px;
+    border: 2px solid green;
+    padding-left: 64px;
+    margin: 36px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.box2 {
+    display: inline-block;
+    width: 200px;
+    border: 2px solid red;
+    padding: 36px 24px 36px 24px;
+    margin: 20px;
+    padding-top: 36px;
+    margin-bottom: 48px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.box3 {
+    display: block;
+    width: 480px;
+    border: 2px solid blue;
+    padding: 24px;
+    margin: 36px;
+    font-weight: bolder;
+    font-size: 20px;
+}
