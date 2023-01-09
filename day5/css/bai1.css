@@ -1,0 +1,39 @@
+.flexfb {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;  
+}
+.flex1 {
+
+    width: 40px;
+    margin: 10px;
+    text-align: center;
+    line-height: 23px;
+    font-size: 30px; 
+}
+.flex2 {
+    color: white;
+    width: 40px;
+    margin: 10px;
+    text-align: center;
+    line-height: 23px;
+    font-size: 30px;
+}
+.flex3 {
+    color: white;
+    width: 40px;
+    margin: 10px;
+    text-align: center;
+    line-height: 23px;
+    font-size: 30px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: gray;
+}
+.flex2:hover {
+    color: blue;
+    border-bottom: 4px solid blue;
+}
+    
+
+
