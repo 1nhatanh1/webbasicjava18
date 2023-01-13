@@ -1,0 +1,14 @@
+p::selection {
+    background-color: aqua;
+    color: blanchedalmond;
+}
+.download-link::before {
+    content: '😂';
+}
+.notclick::after {
+    content: '🙃';
+    cursor: not-allowed;
+}
+li::marker {
+    content: '😙';
+}
