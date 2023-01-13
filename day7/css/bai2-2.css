@@ -1,0 +1,33 @@
+.avatar {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 5px white solid;
+	border-radius: 50%;
+    overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(98, 61, 190, 0.6);
+	transform: translatey(0px);
+	animation: sf 6s ease-in-out infinite;
+}
+@keyframes sf {
+    0% {
+		box-shadow: 0 5px 15px 0px rgba(117, 32, 32, 0.6);
+		transform: translateY(0px)
+	}
+	25% {
+		box-shadow: 0 25px 15px 0px rgba(31, 179, 51, 0.2);
+		transform: translatey(200px);
+	}
+	50% {
+		box-shadow: 0 5px 15px 0px rgba(211, 136, 136, 0.6);
+		transform: translateZ(200px);
+	}
+    75% {
+		box-shadow: 0 5px 15px 0px rgba(62, 38, 146, 0.6);
+		transform: translatex(200px);
+	}
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(206, 224, 70, 0.6);
+		transform: translatex(0px);
+    }
+}
